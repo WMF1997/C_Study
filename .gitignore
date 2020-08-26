@@ -20,6 +20,9 @@ Release/
 *.vcxproj.filters
 *.vcxproj.user
 
+# this part is specialized for Visual Studio Code
+.vscode/
+
 # this part is specialized for building binaries in Windows. (If not specified, EXECUTABLE FILES WILL NOT BE UPDATED TO GITHUB, ... 
 # I will use tools like Git-LFS to manage the .exe 
 *.exe
