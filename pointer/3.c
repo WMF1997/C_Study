@@ -8,5 +8,5 @@ int main (int argc, const char* argv[])
     {
         printf("%.4f\n", *(pfa+i));
     }
-    return 0;  // 之前写的是0x0, 是因为公主连结里面的可可萝的表情包, 之后还是回来吧. 
+    return 0;  // 之前写的是0x0, 是因为公主连结里面的可可萝的表情包...
 }
