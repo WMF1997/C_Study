@@ -1,0 +1,6 @@
+# this is a .gitignore file for my C_study repo.
+
+# this part is specialized for CLion IDE.
+.idea/
+cmake-build-debug/
+cmake-build-release/
