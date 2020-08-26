@@ -5,6 +5,21 @@
 cmake-build-debug/
 cmake-build-release/
 
+# this part is specialized for Qt
+*.pro
+*.pro.user
+
+# this part is specialized for Visual Studio
+.vs/
+x64/
+Debug/
+Release/
+
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
 # this part is specialized for building binaries in Windows. (If not specified, EXECUTABLE FILES WILL NOT BE UPDATED TO GITHUB, ... 
 # I will use tools like Git-LFS to manage the .exe 
 *.exe
