@@ -12,7 +12,7 @@
 
 void swap(float* x, float* y)
 {
-    int temp;
+    float temp;
     temp = *x; *x = *y; *y = temp;
     return;
 }
